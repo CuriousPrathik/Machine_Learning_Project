@@ -59,4 +59,8 @@ Git Commands for CI
     git status - This command lists all the files that have to be committed.
     git add [file] - This command adds a file to the staging area.
     git add */. - This command adds one or more to the staging area.
+    git log - This command is used to list the version history for the current branch.
+    git commit -m "commit msg" - This command records the file permanently in the version history.
+    git push [variable name] [branch] - This command sends the branch commits to your remote repository.
+
 
