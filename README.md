@@ -106,3 +106,5 @@ To stop docker container
     docker stop <container_id>
 
 Once we can run this in our system we can upload this to cloud and create a CD pipeline.
+
+Create a folder ".github/workflows/main.yaml", write the code which will perform as trigger 
