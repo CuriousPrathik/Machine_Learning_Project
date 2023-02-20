@@ -3,6 +3,7 @@
 **Real World END-To-END Project that includes MLOP'S**
 
 Advantage of Git
+
     Git is a widely used distributed version control system (VCS) that provides a number of advantages to software development teams. 
 
     Distributed Development: Each developer has their own copy of the repository. This allows for more flexibility and reduces the risk of losing work.
@@ -12,9 +13,11 @@ Advantage of Git
     Integration with Other Tools: Git can be integrated with many other development tools, such as continuous integration and deployment systems, bug tracking tools, and code review tools. This makes it easy to automate and streamline the development process.
 
 CI - Continuous Integration is the practice of automating the integration of frequent code changes/commits from multiple contributors into a single software project.
+
 CD - Continuous Deployment/Delivery is the practice where code changes are automatically prepared for a release to production.
 
 Git Branches
+
     Main Branch - main branch is the primary branch in a VCS that typically represents the latest stable version of the software. It is where the production-ready code resides.
 
     Integration Branch - An integration branch is a shared branch in a version control system (VCS) where changes from multiple development branches are merged and tested together, before merging in the main branch.
@@ -50,17 +53,56 @@ Docker - Docker is a platform for building, shipping, and running applications i
         Create a dockerfile with the name “Dockerfile”, “.dockerignore”, we need
 
 Create Conda venv
+
     conda create -p venv python -y
 
 Activate venv
+
     in cmd type conda activate venv/ 
 
 Git Commands for CI
+
     git status - This command lists all the files that have to be committed.
+
     git add [file] - This command adds a file to the staging area.
+
     git add */. - This command adds one or more to the staging area.
+
     git log - This command is used to list the version history for the current branch.
+
     git commit -m "commit msg" - This command records the file permanently in the version history.
+
     git push [variable name] [branch] - This command sends the branch commits to your remote repository.
 
 
+CD in Heroku, we need 3 things:
+
+    Email id
+    API key
+    APP name
+
+Create a dockerfile with name "Dockerfile" and mention the protocall
+
+Build docker image
+
+    docker build -t <imagename>:<tagname> .
+
+    > Note: Image name for docker image always in small
+
+See list of docker images
+
+    docker images
+
+Run docker image
+
+    docker run -p 5000:5000 -e PORT=5000 <Image ID>
+
+Check running containers
+
+    docker ps
+
+To stop docker container
+
+    docker stop <container_id>
+
+Once we can run this in our system we can upload this to cloud and create a CD pipeline.
