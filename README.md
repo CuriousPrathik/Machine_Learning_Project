@@ -108,3 +108,14 @@ To stop docker container
 Once we can run this in our system we can upload this to cloud and create a CD pipeline.
 
 Create a folder ".github/workflows/main.yaml", write the code which will perform as trigger 
+
+### Lets do the project now
+
+    we will make a project folder structure(industry std) first.
+
+we wil create a setup.py file seperately, it is to install req.txt file
+    use "python setup.py install"
+
+We will create a "housing" folder bcz our project is housing prediction and we will write all the main code in this folder.
+
+    create a "__init__.py" file, it is the python module that we are creating to acess the housing module.

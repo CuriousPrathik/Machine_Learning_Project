@@ -1,2 +1,6 @@
 Flask
-gunicorn # for dockerfile
+gunicorn 
+pandas
+numpy
+sklearn
+-e .
