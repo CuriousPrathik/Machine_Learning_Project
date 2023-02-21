@@ -119,3 +119,60 @@ we wil create a setup.py file seperately, it is to install req.txt file
 We will create a "housing" folder bcz our project is housing prediction and we will write all the main code in this folder.
 
     create a "__init__.py" file, it is the python module that we are creating to acess the housing module.
+
+    Folders in Housing
+
+        Logger
+
+        Exception
+
+        Pipeline
+
+
+        Components
+
+        Entity
+
+            Artifact: An artifact is a machine learning term that is used to describe the output created by the training process. Output could be a fully trained model, a model checkpoint, or a file created during the training process.
+
+            so for pipeline the artifacts we have will be
+
+                DataIngestion Artifact
+
+                DataValidation Artifact
+
+                DataTransformation Artifact
+
+                ModelTraining Artifact
+
+                ModelValuation Artifact
+
+                ModelPushing Artifact
+
+        Config
+
+                DataIngestion Config
+
+                DataValidation Config
+
+                DataTransformation Config
+
+                ModelTraining Config
+
+                ModelValuation Config
+
+                ModelPushing Config       
+
+
+
+    we will create a pipeline
+
+        Data Ingestion
+
+        Data Validation
+
+        Data Transformation
+
+        Data Modelling
+
+        Data Pushing
