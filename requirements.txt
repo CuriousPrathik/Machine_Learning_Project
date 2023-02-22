@@ -5,4 +5,5 @@ numpy
 sklearn
 datetime
 ipykernel
+pyYAML
 -e .
